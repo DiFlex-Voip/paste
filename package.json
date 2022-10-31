@@ -1,6 +1,6 @@
 {
   "name": "@diflex/paste",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Utility to allow pasting data intact from Excel into an HTML table",
   "exports": "./src/index.js",
   "type": "module",
