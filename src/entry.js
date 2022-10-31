@@ -1,1 +1,5 @@
-module.exports = require('./index').default
+const parse = require("./index").default;
+
+module.exports = {
+  paste: parse,
+};

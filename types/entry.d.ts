@@ -1,4 +1,4 @@
-function parseCliboard(
+export function parseCliboard(
   e: Event,
   options: {
     rowSelector: string;
@@ -7,4 +7,4 @@ function parseCliboard(
   }
 ): void;
 
-function parseData(data: string): string;
+export function parseData(data: string): string;
