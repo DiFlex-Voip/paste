@@ -1,12 +1,12 @@
-const path = require('path')
+const path = require("path");
 
 module.exports = {
-  mode: 'production',
-  entry: './src/entry.js',
+  mode: "production",
+  entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'paste-from-excel.min.js',
-    library: 'PasteFromExcel',
-    libraryTarget: 'umd'
-  }
-}
+    path: path.resolve(__dirname, "dist"),
+    filename: "paste.min.js",
+    library: "PasteFromExcel",
+    libraryTarget: "umd",
+  },
+};
