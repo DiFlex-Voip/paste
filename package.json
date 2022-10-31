@@ -18,7 +18,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/n3ps/paste-from-excel.git"
+    "url": "git+https://github.com/DiFlex-Voip/paste.git"
   },
   "types": "./types/index.d.ts",
   "engines": {
